@@ -214,3 +214,43 @@ CONFIRMACION DE NUESTRO USUARIO DE GITHUB
 PANTALLAZO 
 ![](img/01.png)
 
+C:>git branch
+<no muestra nada>
+C:\00-EOI>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Img/
+        documentomd_1.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\00-EOI>git add .
+
+C:\00-EOI>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Img/01.png
+        new file:   documentomd_1.md
+
+Confirmar nuestros cambios
+
+
+C:\00-EOI>git commit -m "Estableciendo los primeros pasos"
+[master (root-commit) 2018f04] Estableciendo los primeros pasos
+ 2 files changed, 216 insertions(+)
+ create mode 100644 Img/01.png
+ create mode 100644 documentomd_1.md
+
+ C:\00-EOI>git status
+On branch master
+nothing to commit, working tree clean
+
+Enlazamos el repositorio local con el remote
