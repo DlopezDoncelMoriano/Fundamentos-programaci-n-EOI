@@ -254,3 +254,5 @@ On branch master
 nothing to commit, working tree clean
 
 Enlazamos el repositorio local con el remote
+
+![](img/02.png)
